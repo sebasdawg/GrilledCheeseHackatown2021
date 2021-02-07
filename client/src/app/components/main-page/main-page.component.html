@@ -7,7 +7,7 @@
       <h1>Jardin 514</h1>
       <span class="example-spacer"></span>
       <div class="mainButtons">
-        <button mat-button > 
+        <button mat-button routerLink='/search'> 
             <mat-icon class="search">search</mat-icon>
             Recherche
         </button>
@@ -29,7 +29,7 @@
  <p><b> Rechercher un jardin près de chez vous!</b></p>
 
     <mat-form-field  appearance="fill" color="accent" [hideRequiredMarker]="true" [floatLabel]="'never'" (keyUp.enter)="onSubmit($event)" class="field">
-      <input matInput placeholder="Entrez le nom d'un jardin ou votre adresse" type="text">
+      <input matInput placeholder="Entrez le nom d'un jardin ou votre adresse" type="text" >
     </mat-form-field>
 
 </div>

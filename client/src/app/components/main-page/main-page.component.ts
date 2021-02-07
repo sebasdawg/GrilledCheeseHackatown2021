@@ -15,6 +15,8 @@ export class MainPageComponent implements OnInit {
     console.log(adress);
   }
 
+  
+
   ngOnInit(): void {
   }
 

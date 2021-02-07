@@ -10,7 +10,9 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { SignInComponent } from './components/sign-in/sign-in.component';
 import { MatInputModule } from '@angular/material/input';
 import { MatGridListModule } from '@angular/material/grid-list';
-import { SearchComponent } from './search/search.component';
+import { SearchComponent } from './components/search/search.component';
+import { MatCardModule } from '@angular/material/card';
+import { MatFormFieldModule } from '@angular/material/form-field';
 
 
 @NgModule({
@@ -28,7 +30,9 @@ import { SearchComponent } from './search/search.component';
     MatIconModule,
     BrowserAnimationsModule,
     MatInputModule,
-    MatGridListModule
+    MatGridListModule,
+    MatCardModule,
+    MatFormFieldModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,3 +1,68 @@
+.example-spacer {
+    flex: 1 1 auto;
+  }
+  
+  .mat-button{
+    background-color:white;
+    color:black;
+    font-size: 115%;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    text-align: center;
+    font: helvetica;
+}
+.mat-icon{
+    color: #212529;
+}
 
+.mat-toolbar{
+    background-color: white;
+    height: 100px;
+   
+}
+h1{
+    color: #212529;
+    font-size: 175%;
+    padding-top: 30px;
+}
+
+div.mainButtons{
+  height: 30px;
+  position:relative;
+}
+
+.card{
+    width: 600px;
+    height: 700px;
+    margin: auto;
+}
+
+.mat-form-field{
+    padding-top: 50px;
+    width: 200x;
+    display: block;
+    
+}
+
+.fieldTop{
+    padding-top: 150px;
+}
+
+.fieldBot{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.mat-card-title{
+    padding-top: 25px;
+    font-size: 250%;
+    text-align: center;
+}
+
+.bouton{
+    display: block;
+    font-size: 150%;
+}
   
  
