@@ -9,7 +9,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@googlemaps/google-maps-services-js": "^3.1.16",
     "http": "^0.0.1-security",
+    "jquery": "^3.5.1",
+    "jsdom": "^16.4.0",
     "tsc": "^1.20150623.0"
   }
 }

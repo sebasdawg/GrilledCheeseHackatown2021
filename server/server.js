@@ -1,7 +1,7 @@
-import express from 'express';
 const http = require("http");
 
-let app = express();
+const port = 3000;
+const hostname = '127.0.0.1';
 
 const server = http.createServer(function(req,res){
     res.setHeader("Content-type","application/json");
@@ -13,8 +13,8 @@ const server = http.createServer(function(req,res){
 
 server.on('connection', ()=>{
     console.log('connecting');
-})
+});
 
-server.listen(3000, function() {
-    console.log("aaaaaaaah");
-})
+server.listen(port, hostname, function() {
+    console.log(`Server running at http://${hostname}:${port}`);
+});
