@@ -1,0 +1,52 @@
+.example-spacer {
+    flex: 1 1 auto;
+  }
+  
+  .mat-button{
+    background-color:white;
+    color:black;
+    font-size: 115%;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    text-align: center;
+    font: helvetica;
+}
+.mat-icon{
+    color: #212529;
+}
+
+.mat-toolbar{
+    background-color: white;
+    height: 100px;
+   
+}
+h1{
+    color: #212529;
+    font-size: 175%;
+    padding-top: 30px;
+}
+
+div.mainButtons{
+  height: 30px;
+  position:relative;
+}
+
+div.searchBar{
+  color:white;
+  font-size: 300%;
+  margin:auto;
+  //padding-left: 625px;
+  //padding-top:75px;
+  
+}
+
+ .field {
+   min-width: 150px;
+   max-width: 1500;
+   width: 100%;
+ }
+
+ .mainPart{
+   background-image: url("https://get.pxhere.com/photo/plant-fruit-food-red-produce-vegetable-market-tomato-tomatoes-frisch-flowering-plant-land-plant-potato-and-tomato-genus-1221993.jpg");
+ }

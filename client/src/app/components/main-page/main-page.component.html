@@ -1,0 +1,45 @@
+<body>
+<p> <mat-toolbar >
+    <mat-toolbar-row>
+    <button mat-icon-button  aria-label="Example icon-button with menu icon">
+       <!-- <mat-icon>home</mat-icon>-->
+      </button>
+      <h1>Jardin 514</h1>
+      <span class="example-spacer"></span>
+      <div class="mainButtons">
+        <button mat-button routerLink='/search'> 
+            <mat-icon class="search">search</mat-icon>
+            Recherche
+        </button>
+        <button mat-button routerLink='/sign-in'> 
+            <mat-icon class="search">person_outline</mat-icon>
+            Mon Compte
+        </button>
+  
+      </div>
+    </mat-toolbar-row>
+  </mat-toolbar>
+</p>
+
+<mat-grid-list cols="1" rowHeight="2:1">
+  <mat-grid-tile class="mainPart">
+  
+
+<div class="searchBar">
+ <p><b> Rechercher un jardin près de chez vous!</b></p>
+
+    <mat-form-field  appearance="fill" color="accent" [hideRequiredMarker]="true" [floatLabel]="'never'" (keyUp.enter)="onSubmit($event)" class="field">
+      <input matInput placeholder="Entrez le nom d'un jardin ou votre adresse" type="text" >
+    </mat-form-field>
+
+</div>
+</mat-grid-tile>
+
+<mat-grid-tile>
+  
+  2
+
+</mat-grid-tile>
+</mat-grid-list>
+</body>
+
