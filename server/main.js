@@ -1,9 +1,12 @@
 const { Client } = require('@googlemaps/google-maps-services-js');
+let Request = require('request');
+var fetch = require("node-fetch");
 
 const client = new Client({});
 const googleMapsAPIkey = "AIzaSyASEaBKGj3dqr0s6jV_IfCuhoqv_-ndLls";
 
 let fs = require("fs");
+const { waitForDebugger } = require('inspector');
 let csv = fs.readFileSync('data/dataJardin.csv',{encoding:'utf8', flag:'r'});
 let json = JSON.parse(fs.readFileSync('data/mock-db.json'));
 let jardinCSVlines;
@@ -14,6 +17,8 @@ processData(csv);
 if(json.jardins[0] === undefined){
     csvToJSON(jardinCSVlines);
 }
+
+// tryPOSTuser();
 // client.distancematrix({
 //     params:{
 //         origins:["45.5229485,-73.5612738"],
@@ -88,6 +93,40 @@ function writeToFileCallback(jardinsLines, reponse) {
     });
 }
 
+// function tryPOSTuser() {
+//     let getRequest = new fetch.Request("http://127.0.0.1:3000", {method: 'GET'});
+//     fetch(getRequest).then(response => response.json())
+//     .then(jsonUser =>{
+//         console.log(jsonUser.users);
+//     });  
+    
+//     let jsonUserInput = {"name": "", "email": "", "password": "", "adresse": "765 rue monty"};
+//     jsonUserInput.name = "Sebastien Dagenais";
+//     jsonUserInput.email = "sebasdag@hotmail.com"
+//     jsonUserInput.password = "123456qwer";
+//     jsonUserInput.adresse = "765 rue monty";
+//     input = JSON.stringify(jsonUserInput);
+
+//     let postRequest = new fetch.Request("http://127.0.0.1:3000", {method: 'POST', body: input});
+
+//     // fetch(postRequest)
+//     // .then(response => response.jsonUserInput())
+//     // .then(data => {
+//     //   if(data.status === 200) {  
+//     //     console.log("tabarnak");
+//     //   }})
+
+//     fetch(postRequest)
+//     .then(response => {
+//         if(response.status === 200) {  
+//             console.log("tabarnak");
+//             return response.json();
+//         } else {
+//             console.log("esti");
+//             throw new Error('Something fucked');
+//         }
+//     })
+// }
 
 function autocomplete(inp, arr) {
   /*the autocomplete function takes two arguments,
