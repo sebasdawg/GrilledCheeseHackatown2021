@@ -13,6 +13,8 @@ import { MatGridListModule } from '@angular/material/grid-list';
 import { SearchComponent } from './components/search/search.component';
 import { MatCardModule } from '@angular/material/card';
 import { MatFormFieldModule } from '@angular/material/form-field';
+import { ConnectWindowComponent } from './components/connect-window/connect-window.component';
+import { HttpClientModule } from '@angular/common/http';
 
 
 @NgModule({
@@ -20,7 +22,8 @@ import { MatFormFieldModule } from '@angular/material/form-field';
     AppComponent,
     MainPageComponent,
     SignInComponent,
-    SearchComponent
+    SearchComponent,
+    ConnectWindowComponent
   ],
   imports: [
     BrowserModule,
@@ -32,7 +35,8 @@ import { MatFormFieldModule } from '@angular/material/form-field';
     MatInputModule,
     MatGridListModule,
     MatCardModule,
-    MatFormFieldModule
+    MatFormFieldModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

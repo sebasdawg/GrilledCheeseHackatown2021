@@ -1,31 +1,14 @@
 <body>
-<p> <mat-toolbar >
-  <mat-toolbar-row>
-  <button mat-icon-button  aria-label="Example icon-button with menu icon">
-     <!-- <mat-icon>home</mat-icon>-->
-    </button>
-    <h1>Jardin 514</h1>
-    <span class="example-spacer"></span>
-    <div class="mainButtons">
-      <button mat-button routerLink='/search'> 
-          <mat-icon class="search">search</mat-icon>
-          Recherche
-      </button>
-      <button mat-button routerLink='/sign-in'> 
-          <mat-icon class="search">person_outline</mat-icon>
-          Mon Compte
-      </button>
-
-    </div>
-  </mat-toolbar-row>
-</mat-toolbar>
-</p>
 
 <mat-card class="card">
   <mat-card-title>Veuillez entrer vos infomations</mat-card-title>
   <div class="inputs" >
+    <form>
+      <mat-form-field  appearance="fill" color="accent" [floatLabel]="'never'"  class="fieldTop">
+        <input matInput placeholder="Name" type="text" id="name">
+      </mat-form-field>
 
-    <mat-form-field  appearance="fill" color="accent" [floatLabel]="'never'"  class="fieldTop">
+    <mat-form-field  appearance="fill" color="accent" [floatLabel]="'never'"  class="fieldMid">
       <input matInput placeholder="Adresse" type="text" id="address">
     </mat-form-field>
 
@@ -36,11 +19,13 @@
   <mat-form-field  appearance="fill" color="accent"  [floatLabel]="'never'"  class="fieldBot">
     <input matInput placeholder="Mot de passe" type="password" value="pass" id="password">
   </mat-form-field>
+  <button mat-button  class="bouton" id="send">Envoyer</button>
+</form>
 </div>
 
-<button mat-button  class="bouton" id="send">Envoyer</button>
 
-<button mat-button  class="bouton" >Déja un compte? Clique ici!</button>
+
+<button mat-button  class="bouton" routerLink='connect-window' >Déja un compte? Clique ici!</button>
 </mat-card>
 
 

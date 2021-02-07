@@ -1,2 +1,23 @@
-
+<body><p> <mat-toolbar >
+      <mat-toolbar-row>
+      <button mat-icon-button  routerLink='/home'>
+        
+        </button>
+        <a routerLink='/home'><h1>T'en veux tu des criss de tomates</h1></a>
+        
+        <span class="example-spacer"></span>
+        <div class="mainButtons">
+          <button mat-button routerLink='/search'> 
+              <mat-icon class="search">location_on</mat-icon>
+              Jardins à proximité
+          </button>
+          <button mat-button routerLink='/sign-in'> 
+              <mat-icon class="search">person_outline</mat-icon>
+              Mon Compte
+          </button>
+        </div>
+      </mat-toolbar-row>
+    </mat-toolbar>
+    </p>
 <router-outlet></router-outlet>
+    </body>
