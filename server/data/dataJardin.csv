@@ -1,0 +1,102 @@
+OBJECTID,NomJardin,Index,NomArrond,RueN,RueS,RueE,RueO,N_Jardinet,Banlieu,SHAPE_Leng,SHAPE_Area,Nbacs
+1,P�RE-MARQUETTE,0798-126,Rosemont� La Petite-Patrie,rue De Drucourt,rue de Bellechasse,rue Marquette,rue de Lanaudi�re,125,,238.37906264800,3550.02559997000,0
+2,GEORGES-VANIER,0798-002,Ville-Marie,rue Saint-Antoine,rue Saint-Jacques,rue Jean-D'Estr�es,rue de la Montagne,63,,236.34335568300,2922.42029709000,0
+3,VERSAILLES,0798-032,Ville-Marie,rue Saint-Antoine,rue Bonaventure,rue Lucien-L'Allier,rue Versailles,57,,208.92752968600,2172.43389993000,0
+4,CENTRE-SUD,0798-047,Ville-Marie,rue La Fontaine,rue Logan,rue De Champlain,rue Alexandre-DeS�ve,44,,149.10514140700,1265.71041326000,3
+5,DES 50 CITOYENS,0798-004,Ville-Marie,rue Ontario,rue La Fontaine,rue Alexandre-De-S�ve,rue Plessis,27,,125.64658666400,830.37595001000,3
+6,SAINTE-CATHERINE,0798-024,Ville-Marie,rue Robin,boulevard de Maisonneuve,rue Amherst,rue Saint-Thimoth�e,36,,134.79214061300,991.97799995900,16
+7,PANET,0587-000,Ville-Marie,rue Ontario,rue Duhamel,rue Plessis,rue Panet,10,,86.78454558180,382.31364296200,0
+8,BALDWIN,0798-046,Le Plateau-Mont-Royal,rue Rachel,rue Sherbrooke,rue Chapleau,rue Fullum,45,,169.98260457800,1610.25220002000,0
+9,M�D�RIC-MARTIN,0798-252,Ville-Marie,rue de Rouen,rue Ontario,avenue Gascon,rue du havre,37,,143.24268606100,1269.97392152000,2
+10,SAINT-EUS�BE,0798-005,Ville-Marie,rue de Rouen,rue Larivi�re,rue Dufresne,place Larivi�re,34,,213.97334022400,1224.69630001000,0
+11,SAINTE-MARIE,0798-047,Ville-Marie,rue La Fontaine,rue Logan,rue Dufresne,rue de Fullum,75,,165.12922533200,1348.86109995000,20
+12,HOCHELAGA,0798-039,Mercier�Hochelaga-Maisonneuve,rue Ontario,rue la Fontaine,rue Aylwin,rue Cuvillier,27,,155.32729909300,909.11605000000,0
+13,MAISONNEUVE,0798-008,Mercier�Hochelaga-Maisonneuve,rue de Rouen,rue Ontario,avenue Bennett,avenue Letourneux,236,,380.68232610800,7773.45439986000,12
+14,BASILE-PATENAUDE,0798-012,Rosemont� La Petite-Patrie,place Basile-Patenaud,rue Masson,1re avenue,rue D'Iberville,77,,232.33393300600,2046.99220272000,0
+15,DE LORIMIER,0798-050,Le Plateau-Mont-Royal,rue Gilford,avenue du Mont-Royal,avenue de Lorimier,rue de Bordeaux,119,,245.66971168300,3629.45529997000,5
+16,RIVARD,0231-000,Le Plateau-Mont-Royal,rue Gilford,rue De Bienville,rue Rivard,rue Saint-Denis,29,,136.60981755200,1002.11825000000,29
+18,�TIENNE-DESMARTEAU,0798-206,Rosemont� La Petite-Patrie,rue de Bellechasse,boulevard Rosemont,18e avenue,16e avenue,147,,359.51296095000,5142.80159873000,0
+19,DU CARREFOUR,0798-021,Rosemont� La Petite-Patrie,boulevard Rosemont,rue Dandurand,14e avenue,5675 rue Lafond,16,,231.03722414200,1788.88617137000,0
+20,DE LA PETITE-BOURGOGNE,0798-029,Le Sud-Ouest,rue Blake,rue Quesnel,boulevard Georges-Vanier,rue du Dominion,30,,162.21494432200,1107.88430001000,0
+21,LA L�GUMI�RE ROSE-DE-LIMA,0798-377,Le Sud-Ouest,rue Saint-Jacques,rue Delisle,avenue Greene,rue Rose-de-Lima,88,,204.82232945300,2558.43404998000,0
+22,BONS VOISINS,0798-025,Le Sud-Ouest,rue Sainte-�milie,rue Saint-Ambroise,rue Bourget,rue Turgeon,38,,124.96054600400,950.81410001800,0
+23,SAINTE-MARIA-GORETTI,0798-051,Rivi�re-des-Prairies�Pointe-aux-Trembles,terrasse Sainte-Maria-Goretti,rue Bureau,96e avenue,94e avenue,24,,123.71290002200,824.07355000400,0
+24,PIERRE-LACROIX,0690-000,Rivi�re-des-Prairies�Pointe-aux-Trembles,rue De La Gaucheti�re,rue Parent,rue Pierre-Lacroix,18e avenue,118,,321.52605361600,4749.68735006000,0
+25,SOULIGNY,0798-656,Mercier�Hochelaga-Maisonneuve,rue Hochelaga,avenue Souligny,avenue Desroches,,125,,381.98419233000,5715.23319998000,8
+26,ARC-EN-SOL,0798-006,Mercier�Hochelaga-Maisonneuve,avenue Pierre-De Coubertin,rue Hochelaga,rue Arcand,rue Desautels,112,,256.09789250400,3596.81775010000,0
+27,PIERRE-BERTRAND,0798-100,Mercier�Hochelaga-Maisonneuve,rue Bisaillon,rue Sherbrooke,boulevard Pierre-Bernard,rue Joffre,29,,175.74330851600,1490.53665002000,0
+28,DUP�R�,0798-108,Mercier�Hochelaga-Maisonneuve,rue De Forbin-Janson,rue Sherbrooke,rue Saint-Donat,rue  Honor�-Beaugrand,132,,359.31125451100,7567.74930002000,0
+29,B.P. T�TREAULVILLE,0798-003,Mercier�Hochelaga-Maisonneuve,rue de Teck,rue de Marseille,rue Aubry,rue Bolduc,60,,254.20843112400,3501.37345000000,0
+30,LES DEUX SAPINS,0798-040,Rivi�re-des-Prairies�Pointe-aux-Trembles,boulevard Gouin,boulevard Perras,94e avenue,89e avenue,29,,126.87369889100,988.63469927600,0
+31,MARSEILLE,0798-009,Mercier�Hochelaga-Maisonneuve,rue Sherbrooke,rue de Marseille,avenue de la P�pini�re,rue Du Quesne,11,,66.12315611380,235.22839999400,0
+32,HABITATIONS JEANNE-MANCE,0798-037,Ville-Marie,rue Ontario,boulevard de Maisonneuve,rue Sanguinet,rue Saint-Dominique,55,,192.05694244100,1759.27570003000,6
+33,VICTORIA,0798-031,C�te-des-Neiges�Notre-Dame-de-Gr�ce,avenue Bourret,chemin de la C�te-Sainte-Catherine,avenue Victoria,rue Lemieux,139,,336.97790875600,5722.83270739000,0
+34,FAUBOURG SAINT-LAURENT,0798-033,Ville-Marie,rue Sainte-Catherine,rue Charlotte,rue De Bullion,rue Berger,12,,92.72704872830,412.71245000900,0
+35,DES SEIGNEURS,0798-026,Le Sud-Ouest,rue Quesnel,rue Saint-Jacques,rue des Seigneurs,rue Chatham,109,,264.50986093600,3290.00975003000,0
+36,LA POINTE-VERTE,0798-257,Le Sud-Ouest,rue Mullins,rue Knox,rue d'Hybernia,rue Charlevoix,50,,138.19712310600,1121.69958662000,0
+37,MILE-END,0798-699,Le Plateau-Mont-Royal,rue Maguire,rue Boucher,avenue Henri-Julien,avenue De Gasp�,93,,199.51899874600,2240.60030000000,4
+38,SAINT-MARC,0798-200,Rosemont� La Petite-Patrie,rue B�langer,rue Saint-Zotique,2e avenue,1re avenue,23,,170.08275648500,1108.28054999000,0
+39,SAINTE-MARTHE,0798-053,Rivi�re-des-Prairies�Pointe-aux-Trembles,rue Jacques-Rousseau,boulevard Perras,boulevard Armand-Bombardier,avenue �lie-Beauregard,71,,225.78064312400,3085.31824996000,0
+40,LA MENNAIS,0798-018,Rosemont� La Petite-Patrie,rue Sainte-Zotique,rue Beaubien,rue Saint-Denis,rue Drolet,56,,206.60924268500,1932.85084995000,0
+41,SAINT-RAYMOND,0798-273,C�te-des-Neiges�Notre-Dame-de-Gr�ce,boulevard Maisonneuve,chemin Upper-Lachine,avenue Old Orchard,avenue d'Oxford,21,,140.90272260400,812.61364997300,0
+42,ANGRIGNON,0798-052,Le Sud-Ouest,boulevard Newman,boulevard De La V�rendrye,boulevard des Trinitaires,rue Ducas,110,,382.74546269100,8612.63980009000,0
+43,LE GOUPILLIER,0798-041,Villeray�Saint-Michel�Parc-Extension,rue J.-B.-Matineau,54e rue,rue de Meaux,boulevard Pie-1X,68,,251.39369831800,2010.25379995000,2
+44,LE MICHELOIS,0798-019,Villeray�Saint-Michel�Parc-Extension,rue Denis-Papin,boulevard Robert,12e avenue,boulevard Saint-Michel,64,,167.50932898500,1736.07885003000,3
+45,VILLERAY,0798-022,Villeray�Saint-Michel�Parc-Extension,rue Jarry,rue Villeray,avenue Christophe-Colomb,rue Boyer,238,,399.82984873700,6307.53759989000,4
+46,DE NORMANVILLE,0798-238,Villeray�Saint-Michel�Parc-Extension,rue Jarry,rue Tillemont,rue Chambord,rue DE Normanville,28,,142.78055250600,1141.08319998000,8
+47,RENCONTRES,0798-030,C�te-des-Neiges�Notre-Dame-de-Gr�ce,avenue Notre-Dame-de-Gr�ce,chemin de la C�te-Saint-Antoine,autoroute 15,avenue Girouard,39,,171.45144510300,1489.03449998000,39
+48,CH�TEAUFORT,0798-145,C�te-des-Neiges�Notre-Dame-de-Gr�ce,avenue Barday,avenue Van Horne,avenue de Darlington,chemin Hudson,164,,350.92581823100,6534.59263402000,4
+49,BABYLONE,0798-296,Villeray�Saint-Michel�Parc-Extension,rue Jarry,rue Saint-Roch,parc Jarry,rue Durocher,178,,309.56153053000,5252.42075001000,2
+50,SAINT-SULPICE,0798-425,Ahuntsic-Cartierville,avenue �mile-Journault,rue �tienne-Blanchard,avenie Andr�-Grasset,avenue Christophe-Colomb,259,,398.05526004400,9703.29279989000,16
+51,DE LILLE,0798-017,Villeray�Saint-Michel�Parc-Extension,avenue Charland,rue Chamdor�,avenue Bruchesi,rue de Lille,50,,162.69144364700,1251.60555004000,2
+52,AHUNTSIC,0798-013,Ahuntsic-Cartierville,rue Prieur,rue Fleury,rue Sackville,rue Andr�-Jobin,130,,280.69729065800,4923.89190004000,0
+53,CHAMPDOR�,0798-015,Villeray�Saint-Michel�Parc-Extension,rue Champdor�,par CESM,rue des Prairies,avenue Papineau,213,,373.23523724700,6296.56590005000,4
+54,NOTRE-DAME-DE-GR�CE,0798-028,C�te-des-Neiges�Notre-Dame-de-Gr�ce,chemin de la C�te-Saint-Luc,avenue de Chester,avenue Rosedale,avenue Coronation,46,,156.42786712700,1271.21744999000,0
+55,DE LA SAVANE,0798-700,C�te-des-Neiges�Notre-Dame-de-Gr�ce,rue de la Savane,rue Par�,rue Jean-Talon,avenue Mountain Sights,26,,127.96099579700,871.28859997900,0
+56,CHRIST-ROI,0798-016,Ahuntsic-Cartierville,rue de Port-Royal,rue Fr�mont,rue Saint-Hubert,rue Foucher,56,,207.36646980300,1738.03230003000,0
+57,LES CASTORS,0798-020,Ahuntsic-Cartierville,rue Sauv�,rue Fr�mont,rue Lajeunesse,rue Berri,18,,152.88822122800,526.98120000500,0
+58,PIERRE-LAPOINTE,0798-007,Ahuntsic-Cartierville,boulevard Henri-Bourassa,rue Fleury,rue Saint-Hubert,rue Lajeunesse,68,,202.48295058300,2519.66130000000,0
+60,SAULT-AU-R�COLLET,0798-452,Ahuntsic-Cartierville,�le-de-la-Visitation,boulevard Gouin,rue Saint-Fran�ois-d'Assise,rue du Pressoir,50,,174.18140908700,1782.16957608000,0
+61,LES ARPENTS VERTS,0798-044,Rivi�re-des-Prairies�Pointe-aux-Trembles,rue De La Gaucheti�re,rue Parent,rue de Lorraine,18e avenue,85,,274.45919719900,3768.58875003000,0
+62,CABRINI,0798-001,Mercier�Hochelaga-Maisonneuve,rue Lina-Asnier,rue Beaubien,place Beaubien,rue Cabrini,127,,271.31988569000,3869.04459999000,0
+63,ROSEMONT,0798-049,Rosemont� La Petite-Patrie,boulevard Rosemont,rue Sherbrooke,rue Viau,boulevard Pie-IX,171,,438.28212401200,10409.83110740000,0
+64,L'�GLANTIER,0798-085,Rosemont� La Petite-Patrie,boulevard Rosemont,rue Sherbrooke,rue Viau,boulevard Pie-IX,85,,290.36499213900,4119.65450006000,0
+65,LAURIER,0798-698,Rosemont� La Petite-Patrie,avenue Laurier,boulevard saint-Joseph,13e avenue,12e avenue,42,,170.04319690100,1489.21326914000,0
+66,SAINT-ANDR�,0798-038,Ville-Marie,rue Sherbrooke,rue Ontario,rue Labrecque,rue saint-andr�,28,,139.64909816800,852.36675002200,0
+67,CABRINI (ANNEXE),0798-054,Mercier�Hochelaga-Maisonneuve,rue Beaubien,boulevard Rosemont,rue Bossuet,rue Lacordaire,12,,77.54975228690,368.05090000900,0
+68,DESCHAMPS,0798-014,Ahuntsic-Cartierville,boulevard Gouin,rue de Salaberry,rue Deschamps,rue Letellier,64,,270.41354756300,2116.20621361000,0
+69,ARTHUR-P�LOQUIN,0798-056,Saint-L�onard,rue d'Artagnan,rue Jean-Rivard,rue L�vrard,8115 rue Arthur-P�loquin,68,,211.49005409000,1165.32317581000,0
+70,COUTURE,0798-057,Saint-L�onard,boulevard des Grandes-Prairies,4855 boulevard Couture,boulevard Viau,rue Pierre-�lliott-Trudeau,34,,182.88969444400,1381.34791363000,0
+71,LES JARDINS ALICE-PATTERSON,0798-058,Verdun,fleuve Saint-Laurent,boulevard de la For�t,chemin du Club-Marin,boulevard de la For�t,200,,314.39705805700,5249.95715348000,0
+72,ROI-REN�,0798-059,Anjou,boulevard M�tropolitain,avenue du Chardonnet,boulevard Roi-Ren�,avenue Pigeon,67,,223.56728488000,2609.33163983000,0
+73,LUCIE-BRUNEAU,0798-060,Anjou,avenue Marie-Lajoie,avenue Giraud,boulevard des Galeries-D'Anjou,rue du Champ-d'Eau,78,,214.24118895900,2086.62471782000,0
+74,LES POUCES VERTS DE VERDUN,0798-061,Verdun,boulevard LaSalle,fleuve Saint-Laurent,avenue Desmarchais,rue Osborne,75,,371.16893041200,4174.21216135000,0
+75,JARDINS DE L'H�PITAL DOUGLAS,0798-062,Verdun,H�pital Douglas,boulevard LaSalle,rue Stephens,rue Leclerc,180,,364.60839797800,7141.86408976000,0
+76,MONTR�AL-NORD,0798-063,Montr�al-Nord,boulevard Gouin,boulevard Henri-Bourrassa,avenue Saint-Julien,Pont Pie-IX,131,,329.66693608900,3736.26356713000,0
+77,NO�L-NORD,0798-064,Saint-Laurent,rue Baker,voie ferr�e,boulevard Toupin,avenue du Beau-Bois,25,,135.85893467900,1061.40212327000,0
+78,HARTENSTEIN,0798-065,Saint-Laurent,rue Poirier,rue Tass�,rue D�carie,rue Millar,23,,102.93188033000,555.55646978300,0
+79,ALEXIS-NIHON,0798-066,Saint-Laurent,rue Nantel,rue Badeaux,rue Bertrand,carr� Stuart,28,,131.99968906500,1083.56862685000,0
+80,SUPER JARDIN,0798-067,Saint-Laurent,boulevard de la C�te-Vertu,voie ferr�e,boulevard Montpellier,avenue Sainte-Croix,40,,141.12750288500,1118.11320936000,0
+81,SAINT-LAURENT,0798-068,Saint-Laurent,croissant du Ruisseau,rue Poirier,boulevard Henri-Bourrassa,rue Dutrisac,42,,125.66559638600,783.10415649300,0
+82,JARDIN CARDINAL,0798-069,Saint-Laurent,rue Deguire,rue Tass�,rue Cardinal,rue Crevier,32,,166.71295526300,1645.18515204000,0
+83,PIERRE-�LLIOTT-TRUDEAU,0798-070,Outremont,voie ferr�e,avenue Ducharme,avenue Wiseman,999 avenue McEachran,58,,169.95830492400,1291.83045978000,0
+84,DES RAPIDES,0798-071,LaSalle,canal de l'Aqueduc,69e avenue,rue Beyries,boulevard LaSalle,143,,820.61615258900,17667.93741050000,0
+85,CHARLES-NAGUY,0798-072,LaSalle,rue Maria,rue Stinson,rue Wanklyn,rue Airlle,213,,792.94930634000,16964.70022430000,0
+86,LANTHIER/SAINTE-ANNE,0798-073,Pointe-Claire,avenue Lanthier,chemin du Bord-du-Lac-Lakeshore,avenue Lourdes,avenue Sainte-Anne,16,1,112.98748639600,627.05837494700,0
+87,VALOIS,0798-074,Pointe-Claire,avenue Belmont,avenue Donegani,avenue de la Baie-de-Valois,avenue Broadview,32,1,170.65022128800,1214.65704920000,0
+88,KILDARE/KELLERT,0798-075,C�te-Saint-Luc,rue Norwalk,chemin Kildare,avenue Kellert,avenue Shalom,50,1,235.85364275000,2832.48592941000,0
+89,THORNCREST/LYAL,0798-076,Dorval,place Lyal,rue Utilit�s publiques,avenue Thorncrest,boulevard Pine beach,40,1,207.56764024200,2131.70219224000,0
+90,BRITTANY/AINSLEY,0798-077,Mont-Royal,chemin de la C�te-de-Liesse,avenue Brittany,chemin Rockland,boulevard Laird,48,1,285.53969375800,5044.11023164000,0
+91,HALLOWELL,0798-078,Westmount,boulevard Dorchester,voie ferr�e/autoroute 720,rue Hallowell,rue Hillside,26,1,83.28806267930,346.71720942400,0
+92,HILLSIDE,0798-079,Westmount,rue sainte-Catherine,voie ferr�e/autoroute 720,rue Hallowell,rue Hillside,62,1,134.01132464900,828.82714756700,0
+93,SAINTE-ANNE-DE-BELLEVUE,0798-080,Sainte-Anne-de-Bellevue,rue Grier,rue Sainte-Anne,rue du Pacifique,rue saint-Charles,24,1,83.02980574920,426.04324212100,0
+94,JARDIN RICHELIEU,,Rivi�re-des-Prairies�Pointe-aux-Trembles,rue Forsyth,rue De Montigny,42e avenue,40e avenue,44,,226.24323196000,1630.21218965000,4
+95,ANDR�-LAURENDEAU,,Anjou,avenue Andr�-Laurendeau,boulevard M�tropolitain,boulevard Louis-H-La Fontaine,boulevard du Haut-Anjou,62,,305.55967931900,2857.66524164000,0
+96,SPALDING,,Anjou,boulevard Wilfrid-Pelletier,rue Spalding,Place Spalding,avenue Goncourt,77,,207.59758069200,2552.28305855000,0
+97,DES ROSERAIES,,Anjou,avenue des Jalesnes,avenue du Bocage,boulevard des Galeries D'Anjou,Cimeti�re Repos St-Fran�ois-d'Assise,48,,167.50148085300,1374.52261547000,3
+98,NOTRE-DAME,,Anjou,place de l'�glise,avenue Ch�nier,avenue de l'Ar�na,rue Louis-Dumouchel,98,,295.87027606100,3665.04974671000,0
+100,JARDIN WILFRID-VINCENT,,Lachine,rue Desrosiers,rue des �rables,avenue Windsor,avenue Stanley,30,,71.60669137520,238.90992817700,0
+101,JARDIN SHERBROOKE,,Lachine,rue Sherbrooke,rue Provost,4e avenue,5e avenue,30,,139.74084328400,953.55082559100,0
+102,REMEMBRANCE,,Lachine,rue Remembrance,rue Victoria,28e avenue,32e avenue,210,,394.33886218700,5068.50080541000,0
+104,MONSABR�,,Mercier�Hochelaga-Maisonneuve,rue de Toulouse,avenue Souligny,rue Monsabr�,rue Dickson,41,,311.05678595400,5244.41050331000,41
+176,LES JARDINS DE L'INSTITUT,,Mercier�Hochelaga-Maisonneuve,Rue Marseille,,,rue du Trianon,59,,261.28163458100,3619.67910084000,6
