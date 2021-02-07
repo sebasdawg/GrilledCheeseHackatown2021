@@ -8,13 +8,17 @@ import { AppComponent } from './components/app/app.component';
 import { MainPageComponent } from './components/main-page/main-page.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { SignInComponent } from './components/sign-in/sign-in.component';
+import { MatInputModule } from '@angular/material/input';
+import { MatGridListModule } from '@angular/material/grid-list';
+import { SearchComponent } from './search/search.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     MainPageComponent,
-    SignInComponent
+    SignInComponent,
+    SearchComponent
   ],
   imports: [
     BrowserModule,
@@ -22,7 +26,9 @@ import { SignInComponent } from './components/sign-in/sign-in.component';
     MatToolbarModule,
     MatButtonModule,
     MatIconModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    MatInputModule,
+    MatGridListModule
   ],
   providers: [],
   bootstrap: [AppComponent]

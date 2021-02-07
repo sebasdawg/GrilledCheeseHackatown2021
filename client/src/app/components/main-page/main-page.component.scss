@@ -33,9 +33,20 @@ div.mainButtons{
 }
 
 div.searchBar{
-  color:black;
+  color:white;
   font-size: 300%;
+  margin:auto;
   //padding-left: 625px;
-  padding-top:75px;
-  text-align:center;
+  //padding-top:75px;
+  
 }
+
+ .field {
+   min-width: 150px;
+   max-width: 1500;
+   width: 100%;
+ }
+
+ .mainPart{
+   background-image: url("https://get.pxhere.com/photo/plant-fruit-food-red-produce-vegetable-market-tomato-tomatoes-frisch-flowering-plant-land-plant-potato-and-tomato-genus-1221993.jpg");
+ }

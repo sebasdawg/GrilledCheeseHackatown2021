@@ -9,6 +9,12 @@ export class MainPageComponent implements OnInit {
 
   constructor() { }
 
+  
+  onSubmit(event:any){
+    const adress = event.target.value;
+    console.log(adress);
+  }
+
   ngOnInit(): void {
   }
 
