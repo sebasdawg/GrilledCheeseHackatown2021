@@ -1,17 +1,18 @@
-const http = require("http");
-let fs = require('fs');
-let jsonUser = JSON.parse(fs.readFileSync('data/user-db.json'));
+import * as http from 'http'
+import * as fs from 'fs'
+import {Client} from '@googlemaps/google-maps-services-js'
 
+let jsonUser = JSON.parse(fs.readFileSync('data/user-db.json').toString());
 const port = 3000;
 const hostname = '127.0.0.1';
 
-const { Client } = require('@googlemaps/google-maps-services-js');
+// const { Client } = require('@googlemaps/google-maps-services-js');
 
 const client = new Client({});
 const googleMapsAPIkey = "AIzaSyASEaBKGj3dqr0s6jV_IfCuhoqv_-ndLls";
 
 let csv = fs.readFileSync('data/dataJardin.csv',{encoding:'utf8', flag:'r'});
-let jsonJardins = JSON.parse(fs.readFileSync('data/mock-db.json'));
+let jsonJardins = JSON.parse(fs.readFileSync('data/mock-db.json').toString());
 let jardinCSVlines;
 let compteur = 0;
 
@@ -37,20 +38,20 @@ const server = http.createServer(function(req,res){
             } else {
                 console.log(newUser);
                 jsonUser.users.push(newUser);
-                fs.writeFile('data/user-db.json', JSON.stringify(jsonUser), finished);
-                function finished(err){
+                fs.writeFile('data/user-db.json', JSON.stringify(jsonUser), (err)=> {
                     console.log('New User has been added to json file');
                     res.end("lache mes tomates");
-                }
+                });
             }
         })
     }
     if(req.method === 'POSTnewJardin') {
         console.log("An user is getting a new garden spot");
-        req.on('user', 'data', function(user, data) {
+        req.on('data', (data) => {
             let newRequest = JSON.parse(data);
             if(newRequest.nomJardin !== ""){
-                if(dataBase = JSON.parse(fs.readFileSync('data/mock-db.json'))){
+                let dataBase: any
+                if(dataBase = JSON.parse(fs.readFileSync('data/mock-db.json').toString())){
                     let i = 0;
                     while(dataBase[i].nomJardin !== newRequest.nomJardin){
                         i++;
@@ -58,8 +59,11 @@ const server = http.createServer(function(req,res){
                     if(i < dataBase.size()) {
                         if(dataBase[i].nombreJardinsDisponibles >= newRequest.nombrePlacesDemandees){
                             dataBase[i].nombrePlacesDisponiles = dataBase[i].nombrePlacesDisponiles - newRequest.nombrePlacesDemandees;
-                            fs.unlink('data/mock-db.json');
-                            fs.writeFile('data/mock-db.json', JSON.stringify(database), finished);
+                            fs.unlink('data/mock-db.json', () => {});
+                            fs.writeFile('data/mock-db.json', JSON.stringify(dataBase), (err)=> {
+                                console.log('New User has been added to json file');
+                                res.end("lache mes tomates");
+                            });
                         }
                     }
                 }
@@ -79,7 +83,7 @@ server.listen(port, hostname, () => {
     console.log(`Server running at http://${hostname}:${port}`);
 });
 
-function processData(allText) {
+function processData(allText: string) {
     var allTextLines = allText.split(/\r\n|\n/);
     var headers = allTextLines[0].split(',');
     jardinCSVlines = [];
@@ -97,7 +101,7 @@ function processData(allText) {
     }
 }
 
-function getFullAdresse(jardinsLines) {
+function getFullAdresse(jardinsLines: any) {
     client.geocode({
         params:{
             components: { 
@@ -108,21 +112,21 @@ function getFullAdresse(jardinsLines) {
             key: googleMapsAPIkey,
         }, 
         timeout : 1000,
-    }).then((r) => {
-        string = r.data.results[0].formatted_address;
+    }).then((r: any) => {
+        let string = r.data.results[0].formatted_address;
         writeToFileCallback(jardinsLines, string);
-    }).catch((e) =>{
+    }).catch((e: any) =>{
         console.log(e.response.data.error_message);
     })
 }
 
-function csvToJSON(jardinsLine) {
-    for (i = 0; i < jardinsLine.length - 1; i++){ 
+function csvToJSON(jardinsLine: any) {
+    for (let i = 0; i < jardinsLine.length - 1; i++){ 
         getFullAdresse(jardinsLine);
     }
 }
 
-function writeToFileCallback(jardinsLines, reponse) {
+function writeToFileCallback(jardinsLines: any, reponse: string) {
     let jardinTemplate = {"id": "", "nomArrond": "", "nomJardin": "", "adresse": "", "nombreJardinets": "", "nombreJardinetsDisponibles": ""};
     jardinTemplate.id = jardinsLines[compteur][0]; //id
     jardinTemplate.nomArrond = jardinsLines[compteur][3]; //nomAround
@@ -133,7 +137,9 @@ function writeToFileCallback(jardinsLines, reponse) {
     
     jsonJardins.jardins.push(jardinTemplate);
     compteur++;
-    fs.writeFileSync('data/mock-db.json', JSON.stringify(jsonJardins), function(err, result) {
-        if(err) console.log('error', err);
-    });
+    fs.writeFileSync('data/mock-db.json', JSON.stringify(jsonJardins));
+    // , (err, result) {
+        // if(err) console.log('error', err);
+    // });
 }
+export=null
